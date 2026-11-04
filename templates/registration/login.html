@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}CampusConnect - Log in{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-5">
+        <div class="card shadow-sm">
+            <div class="card-body p-4">
+                <h2 class="card-title h4 mb-4">Log in</h2>
+
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    {% include "includes/form_fields.html" %}
+                    {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+                    <button type="submit" class="btn btn-primary w-100">Log in</button>
+                </form>
+            </div>
+            <div class="card-footer text-center bg-white">
+                No account? <a href="{% url 'signup' %}">Sign up</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
