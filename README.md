@@ -6,7 +6,7 @@
 |---|---|
 | **Full Name** | Adrian James F. Bona |
 | **Course & Section** | CSIT327 (Information Management 2) — Section G1 |
-| **Instructor** | _TODO: add instructor name_ |
+| **Instructor** | Mr. Frederick L. Revilleza Jr. |
 
 ## Project Overview
 
