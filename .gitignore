@@ -1,4 +1,30 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Databases
+*.sqlite3
 db.sqlite3
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Static & Media
+staticfiles/
+media/
